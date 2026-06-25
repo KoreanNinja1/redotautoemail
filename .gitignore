@@ -1,0 +1,17 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Large media (use RedotPay-KOL-BD.zip for full assets)
+videos/Redotpay.mp4
+
+# Local-only VS Code overrides (optional)
+.vscode/*.local.json

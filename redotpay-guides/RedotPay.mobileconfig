@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>配置访问限制</string>
+			<key>PayloadDisplayName</key>
+			<string>访问限制</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.C0254DFA-E48F-4911-A758-0D8D1B95D9F3</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>C0254DFA-E48F-4911-A758-0D8D1B95D9F3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowCloudBackup</key>
+			<false/>
+			<key>allowCloudDocumentSync</key>
+			<false/>
+			<key>enforcedSoftwareUpdateDelay</key>
+			<integer>90</integer>
+			<key>forceDelayedSoftwareUpdates</key>
+			<true/>
+			<key>ratingRegion</key>
+			<string>us</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>配置密码设置</string>
+			<key>PayloadDisplayName</key>
+			<string>密码</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mobiledevice.passwordpolicy.E8ECFD06-330A-46B6-94F4-2BDFECB105AF</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>E8ECFD06-330A-46B6-94F4-2BDFECB105AF</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>minLength</key>
+			<integer>8</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>RedotPay macOS Configuration</string>
+	<key>PayloadDisplayName</key>
+	<string>RedotPay Config</string>
+	<key>PayloadIdentifier</key>
+	<string>com.RedotPay.restrictions</string>
+	<key>PayloadOrganization</key>
+	<string>RedotPay</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3E7CEA16-6C4F-465D-BD9C-119FABFD54FA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

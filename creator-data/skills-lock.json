@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "noxinfluencer": {
+      "source": "/tmp/noxinfluencer-skills",
+      "sourceType": "local",
+      "computedHash": "f822ff25cf1212a9a5298a7e6a59a9b69367d37b3cdba6fa2dbc0f415df60903"
+    }
+  }
+}

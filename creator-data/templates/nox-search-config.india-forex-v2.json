@@ -1,0 +1,17 @@
+{
+  "label": "印度 forex v2（用户确认参数）",
+  "platform": "youtube",
+  "countries": ["IN"],
+  "keywords": ["forex"],
+  "follower_min": 4000,
+  "follower_max": 50000,
+  "avg_view_min": 500,
+  "published_within_days": 90,
+  "fetch_contacts": true,
+  "strict_country": true,
+  "count": 20,
+  "exclude_outreach": true,
+  "exclude_unsupported": true,
+  "kol_intelligence_score": false,
+  "output_slug": "india_forex_v2"
+}

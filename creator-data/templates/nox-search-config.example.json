@@ -1,0 +1,18 @@
+{
+  "label": "示例：阿尔及利亚 crypto",
+  "platform": "youtube",
+  "countries": ["DZ"],
+  "keywords": ["crypto", "bitcoin"],
+  "follower_min": 4000,
+  "follower_max": 100000,
+  "avg_view_min": null,
+  "published_within_days": 90,
+  "engagement_rate_min": null,
+  "has_email": true,
+  "count": 20,
+  "exclude_outreach": true,
+  "exclude_unsupported": true,
+  "kol_intelligence_score": false,
+  "market_for_kol_api": "Algeria",
+  "output_slug": "algeria_crypto"
+}

@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RedotPay Affiliates Guidebook</title>
+  <style>
+    @page {
+      size: A4 landscape;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f1f3f7;
+      color: #182033;
+      font-family: Inter, Arial, Helvetica, sans-serif;
+    }
+
+    .page {
+      position: relative;
+      width: 297mm;
+      height: 210mm;
+      padding: 18mm 20mm 14mm;
+      overflow: hidden;
+      page-break-after: always;
+      background:
+        radial-gradient(circle at 88% 12%, rgba(231, 20, 55, 0.18), transparent 26%),
+        linear-gradient(135deg, #ffffff 0%, #f6f8fc 56%, #eef1f7 100%);
+    }
+
+    .page.dark {
+      color: #ffffff;
+      background:
+        radial-gradient(circle at 14% 18%, rgba(231, 20, 55, 0.9), transparent 30%),
+        radial-gradient(circle at 88% 16%, rgba(255, 255, 255, 0.16), transparent 22%),
+        linear-gradient(135deg, #121722 0%, #202738 58%, #0c1018 100%);
+    }
+
+    .label {
+      display: inline-flex;
+      align-items: center;
+      height: 9mm;
+      padding: 0 5mm;
+      border-radius: 999px;
+      color: #e71437;
+      background: rgba(231, 20, 55, 0.1);
+      font-size: 9pt;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .dark .label {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    h1, h2, h3, p {
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 14mm;
+      max-width: 160mm;
+      font-size: 43pt;
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin-top: 7mm;
+      font-size: 25pt;
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+    }
+
+    h3 {
+      font-size: 14pt;
+      line-height: 1.2;
+      color: #111827;
+    }
+
+    .dark h3 {
+      color: #ffffff;
+    }
+
+    p, li {
+      font-size: 10.4pt;
+      line-height: 1.45;
+    }
+
+    .lead {
+      margin-top: 8mm;
+      max-width: 156mm;
+      font-size: 15pt;
+      line-height: 1.38;
+      color: #4b5565;
+    }
+
+    .dark .lead {
+      color: rgba(255, 255, 255, 0.84);
+    }
+
+    .small {
+      color: #697386;
+      font-size: 8.8pt;
+      line-height: 1.35;
+    }
+
+    .dark .small {
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .footer {
+      display: none;
+    }
+
+    .dark .footer {
+      color: rgba(255, 255, 255, 0.62);
+    }
+
+    .brand {
+      display: none;
+    }
+
+    .logo-mark {
+      display: inline-block;
+      width: 7mm;
+      height: 7mm;
+      margin-right: 2mm;
+      vertical-align: -1.5mm;
+      border-radius: 50%;
+      background: #e71437;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 9mm;
+      margin-top: 10mm;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6mm;
+      margin-top: 9mm;
+    }
+
+    .card {
+      padding: 7mm;
+      border: 1px solid rgba(24, 32, 51, 0.08);
+      border-radius: 8mm;
+      background: rgba(255, 255, 255, 0.78);
+      box-shadow: 0 8mm 22mm rgba(17, 24, 39, 0.08);
+    }
+
+    .dark .card {
+      border-color: rgba(255, 255, 255, 0.16);
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: none;
+    }
+
+    .card ul {
+      margin: 5mm 0 0;
+      padding-left: 5mm;
+    }
+
+    .card li {
+      margin: 2mm 0;
+    }
+
+    .number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 11mm;
+      height: 11mm;
+      margin-bottom: 4mm;
+      border-radius: 50%;
+      color: #ffffff;
+      background: #e71437;
+      font-size: 14pt;
+      font-weight: 800;
+    }
+
+    .screenshot {
+      display: block;
+      width: 100%;
+      max-height: 70mm;
+      margin-top: 5mm;
+      object-fit: contain;
+      border: 1px solid #d9dee8;
+      border-radius: 5mm;
+      background: #ffffff;
+      box-shadow: 0 5mm 14mm rgba(17, 24, 39, 0.14);
+    }
+
+    .screenshot.large {
+      max-height: 118mm;
+    }
+
+    .screenshot.tight {
+      max-height: 60mm;
+    }
+
+    .hero-panel {
+      position: absolute;
+      right: 20mm;
+      top: 28mm;
+      width: 84mm;
+      height: 132mm;
+      padding: 10mm;
+      border-radius: 12mm;
+      background: rgba(255, 255, 255, 0.14);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+    }
+
+    .hero-panel .metric {
+      margin-top: 7mm;
+      padding: 6mm;
+      border-radius: 6mm;
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 24pt;
+      line-height: 1;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 2mm;
+      font-size: 8.5pt;
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3mm;
+      margin-top: 7mm;
+    }
+
+    .pill {
+      padding: 2.5mm 4mm;
+      border-radius: 999px;
+      background: rgba(231, 20, 55, 0.1);
+      color: #e71437;
+      font-size: 8.5pt;
+      font-weight: 700;
+    }
+
+    .dark .pill {
+      background: rgba(255, 255, 255, 0.14);
+      color: #ffffff;
+    }
+
+    .decision {
+      margin-top: 8mm;
+      padding: 6mm 8mm;
+      border-radius: 8mm;
+      background: #e71437;
+      color: #ffffff;
+      font-size: 13pt;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: 98mm 1fr;
+      gap: 10mm;
+      align-items: start;
+      margin-top: 8mm;
+    }
+
+    .step-note {
+      margin-top: 4mm;
+      color: #586174;
+    }
+
+    .dark .step-note {
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .commission-img {
+      height: 116mm;
+      width: auto;
+      border-radius: 8mm;
+      box-shadow: 0 8mm 24mm rgba(17, 24, 39, 0.18);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 5mm;
+      background: #ffffff;
+      font-size: 9.6pt;
+    }
+
+    th {
+      text-align: left;
+      color: #ffffff;
+      background: #182033;
+    }
+
+    th, td {
+      padding: 3mm 4mm;
+      border-bottom: 1px solid #e4e8f0;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <section class="page dark">
+    <span class="label">Overview</span>
+    <h1>RedotPay Affiliates Guidebook</h1>
+    <p class="lead">A practical guide for professional promoters to create invite links, track channel performance, manage commissions, and withdraw earnings through RedotPay Affiliates.</p>
+    <div class="pill-row">
+      <span class="pill">KOLs</span>
+      <span class="pill">Media Buyers</span>
+      <span class="pill">Communities</span>
+      <span class="pill">Agencies</span>
+      <span class="pill">Professional Promoters</span>
+    </div>
+    <div class="hero-panel">
+      <h3>What Is RedotPay Affiliates?</h3>
+      <p class="small" style="margin-top:5mm;">A dedicated platform for professional promoters to create multiple invitation links, track performance across different channels, and optimize marketing efforts based on real data.</p>
+      <div class="metric">
+        <strong>Multi-link</strong>
+        <span>Create separate links for different media and placements.</span>
+      </div>
+      <div class="metric">
+        <strong>Reports</strong>
+        <span>Track clicks, registrations, conversions, and commissions.</span>
+      </div>
+      <div class="metric">
+        <strong>Withdraw</strong>
+        <span>Manage commission withdrawal requests in the platform.</span>
+      </div>
+    </div>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 1 of 8 --</div>
+  </section>
+
+  <section class="page">
+    <span class="label">Important Difference</span>
+    <h2>Affiliate Invite Link vs. RedotPay App Referral</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>RedotPay App Referral</h3>
+        <p class="step-note">For regular app users who want to invite friends or individual users from inside the RedotPay App.</p>
+        <ul>
+          <li>Share one referral link or referral code.</li>
+          <li>Best for friends and private communities.</li>
+          <li>Simple referral tracking inside the app.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>RedotPay Affiliates Invite Link</h3>
+        <p class="step-note">For professional promoters who need advanced tracking, reporting, commission management, and withdrawals.</p>
+        <ul>
+          <li>Create multiple promotion links.</li>
+          <li>Track media and placement performance.</li>
+          <li>Manage reports, commissions, and withdrawals in the Center.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Use Affiliates For</h3>
+        <p class="step-note">YouTube, Telegram, WhatsApp, Instagram, websites, paid traffic, and community campaigns.</p>
+      </div>
+      <div class="card">
+        <h3>Measure Results</h3>
+        <p class="step-note">Review clicks, registrations, conversions, and performance by campaign source.</p>
+      </div>
+      <div class="card">
+        <h3>Optimize Growth</h3>
+        <p class="step-note">Compare channels, focus on high-quality traffic, and double down on what converts.</p>
+      </div>
+    </div>
+    <div class="decision">Recommendation: creators, KOLs, paid traffic teams, and professional promoters should use RedotPay Affiliates.</div>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 2 of 8 --</div>
+  </section>
+
+  <section class="page">
+    <span class="label">Join</span>
+    <h2>Step-by-Step Guide to Join RedotPay Affiliates</h2>
+    <div class="grid-2">
+      <div class="card">
+        <span class="number">1</span>
+        <h3>Visit the Affiliate Program Page</h3>
+        <p class="step-note">Go to <strong>redotpay.com/affiliates</strong>, or click <strong>Affiliate Program</strong> on the RedotPay homepage.</p>
+        <img class="screenshot tight" src="affliate%20guidebook/微信图片_20260624162730_152_30.png" alt="Affiliate Program entry on RedotPay homepage">
+      </div>
+      <div class="card">
+        <span class="number">2</span>
+        <h3>Sign Up for an Affiliate Account</h3>
+        <p class="step-note">Fill out the required information to create your affiliate profile, including name, email, RedotPay ID, and contact method.</p>
+        <img class="screenshot tight" src="affliate%20guidebook/微信图片_20260624162758_153_30.png" alt="RedotPay Affiliates registration page">
+      </div>
+    </div>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 3 of 8 --</div>
+  </section>
+
+  <section class="page">
+    <span class="label">Dashboard</span>
+    <h2>Step 3: Center Overview</h2>
+    <div class="columns">
+      <div>
+        <span class="number">3</span>
+        <h3>Get Access to the Center</h3>
+        <p class="step-note">After registration, you can manage promotions, links, reports, commissions, and withdrawals in the Center.</p>
+        <div class="card" style="margin-top:8mm;">
+          <h3>What You Can Manage</h3>
+          <ul>
+            <li>Promotion links for different channels.</li>
+            <li>Reports for clicks, registrations, and conversions.</li>
+            <li>Commission details and withdrawal requests.</li>
+          </ul>
+        </div>
+      </div>
+      <img class="screenshot large" src="affliate%20guidebook/微信图片_20260624162828_154_30.png" alt="Center overview">
+    </div>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 4 of 8 --</div>
+  </section>
+
+  <section class="page">
+    <span class="label">Use</span>
+    <h2>Step-by-Step Guide to Use RedotPay Affiliates</h2>
+    <div class="columns">
+      <div>
+        <span class="number">1</span>
+        <h3>Create and Share Promotion Links</h3>
+        <p class="step-note">Go to <strong>Promotion -> Promotion Links</strong> to create unique referral links, promote different campaigns, and target different audiences across multiple channels.</p>
+        <div class="card" style="margin-top:8mm;">
+          <h3>Media and Placement</h3>
+          <p class="step-note">Use these fields to categorize traffic sources such as YouTube videos, Telegram groups, WhatsApp communities, Instagram stories, websites, or paid ads.</p>
+        </div>
+      </div>
+      <img class="screenshot large" src="affliate%20guidebook/微信图片_20260624162835_155_30.png" alt="Promotion Links page">
+    </div>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 5 of 8 --</div>
+  </section>
+
+  <section class="page">
+    <span class="label">Reports & Payment</span>
+    <div class="grid-2" style="margin-top:0;">
+      <div class="card">
+        <span class="number">2</span>
+        <h3>Track Your Performance</h3>
+        <p class="step-note">Use Reports to view clicks, registrations, conversions, and performance by media and placement.</p>
+        <img class="screenshot" src="affliate%20guidebook/微信图片_20260624162843_156_30.png" alt="Reports dashboard">
+      </div>
+      <div class="card">
+        <span class="number">3</span>
+        <h3>Withdraw Your Earnings</h3>
+        <p class="step-note">Use Payment to claim commissions, select a withdrawal method, and submit withdrawal requests.</p>
+        <img class="screenshot" src="affliate%20guidebook/微信图片_20260624162849_157_30.png" alt="Withdrawal page">
+      </div>
+    </div>
+    <p class="small" style="margin-top:7mm;">Withdrawal availability and minimum withdrawal requirements may depend on the current platform rules shown in your Center.</p>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 6 of 8 --</div>
+  </section>
+
+  <section class="page">
+    <span class="label">Commission</span>
+    <h2>Commission Structure and Earning Details</h2>
+    <div class="columns">
+      <div>
+        <div class="card">
+          <h3>Card Application Fees You Can Earn From</h3>
+          <table style="margin-top:5mm;">
+            <tr><th>Card Type</th><th>Application Fee</th></tr>
+            <tr><td>Virtual Card</td><td>$10 USD</td></tr>
+            <tr><td>Physical Card</td><td>$100 USD</td></tr>
+          </table>
+        </div>
+        <div class="card" style="margin-top:7mm;">
+          <h3>What This Means</h3>
+          <ul>
+            <li>Card activation commission is earned from eligible card applications.</li>
+            <li>Consumption commission is earned from referred users' transaction volume.</li>
+            <li>Second-level commission is earned from affiliates you invite.</li>
+          </ul>
+        </div>
+      </div>
+      <img class="commission-img" src="affliate%20guidebook/微信图片_20260624163753_158_30.jpg" alt="Referral Commission Rules">
+    </div>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 7 of 8 --</div>
+  </section>
+
+  <section class="page dark">
+    <span class="label">Summary</span>
+    <h2>Tier 2 Commission & Best Practices</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Tier 2 Commission</h3>
+        <p class="step-note">You can also invite others to become RedotPay affiliates.</p>
+        <ul>
+          <li>Earn 10% of their total commission.</li>
+          <li>The Tier 2 earning period lasts for a full 365 days.</li>
+          <li>Example: if your referred affiliate earns $10,000 in commission, you receive $1,000 as a Tier 2 bonus.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Best Practices</h3>
+        <ul>
+          <li>Create separate promotion links for different channels.</li>
+          <li>Use clear Media and Placement names so reports are easy to understand.</li>
+          <li>Track which content, platform, or community brings the best conversions.</li>
+          <li>Focus on quality traffic instead of only high click volume.</li>
+          <li>Review reports regularly and double down on the best-performing placements.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="decision">RedotPay Affiliates is best for professional promoters who need advanced tracking and commission management.</div>
+    <div class="brand"><span class="logo-mark"></span>RedotPay</div>
+    <div class="footer">-- 8 of 8 --</div>
+  </section>
+</body>
+</html>

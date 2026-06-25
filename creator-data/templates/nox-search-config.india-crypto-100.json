@@ -1,0 +1,19 @@
+{
+  "label": "India forex 100 — YouTube IN 4K-50K",
+  "platform": "youtube",
+  "countries": ["IN"],
+  "keywords": ["forex"],
+  "follower_min": 4000,
+  "follower_max": 50000,
+  "published_within_days": 90,
+  "avg_view_min": 500,
+  "count": 100,
+  "has_email": true,
+  "fetch_contacts": true,
+  "exclude_outreach": true,
+  "exclude_ras_blacklist": true,
+  "exclude_unsupported": true,
+  "strict_country": true,
+  "kol_intelligence_score": false,
+  "output_slug": "india_crypto_100"
+}
