@@ -1,0 +1,92 @@
+{
+  "completed": [
+    "score_batch_IN_2026-06-25",
+    "score_batch_OTHERS_2026-06-25",
+    "score_batch_CO_2026-06-25",
+    "score_batch_AR_2026-06-25",
+    "score_batch_CL_2026-06-25",
+    "score_batch_PE_2026-06-25",
+    "score_batch_VE_2026-06-25",
+    "score_batch_BR_part1_2026-06-25",
+    "score_batch_BR_part2_2026-06-25",
+    "score_batch_BR_part3_2026-06-25"
+  ],
+  "batches": {
+    "score_batch_IN_2026-06-25": {
+      "market": "India",
+      "total": 80,
+      "ready_ge60": 43,
+      "scored": 80,
+      "finished_at": "2026-06-26T03:29:36.395Z"
+    },
+    "score_batch_OTHERS_2026-06-25": {
+      "market": "India",
+      "total": 7,
+      "ready_ge60": 1,
+      "scored": 7,
+      "finished_at": "2026-06-26T03:31:55.048Z"
+    },
+    "score_batch_CO_2026-06-25": {
+      "market": "Colombia",
+      "total": 29,
+      "ready_ge60": 4,
+      "scored": 29,
+      "finished_at": "2026-06-26T03:38:55.496Z"
+    },
+    "score_batch_AR_2026-06-25": {
+      "market": "Argentina",
+      "total": 29,
+      "ready_ge60": 13,
+      "scored": 29,
+      "finished_at": "2026-06-26T04:45:33.281Z"
+    },
+    "score_batch_CL_2026-06-25": {
+      "market": "Chile",
+      "total": 8,
+      "ready_ge60": 0,
+      "scored": 8,
+      "finished_at": "2026-06-26T04:48:57.504Z"
+    },
+    "score_batch_PE_2026-06-25": {
+      "market": "Peru",
+      "total": 6,
+      "ready_ge60": 0,
+      "scored": 6,
+      "finished_at": "2026-06-26T04:52:27.740Z"
+    },
+    "score_batch_VE_2026-06-25": {
+      "market": "Venezuela",
+      "total": 4,
+      "ready_ge60": 0,
+      "scored": 4,
+      "finished_at": "2026-06-26T04:54:29.709Z"
+    },
+    "score_batch_BR_part1_2026-06-25": {
+      "market": "Brazil",
+      "total": 72,
+      "ready_ge60": 37,
+      "scored": 71,
+      "finished_at": "2026-06-26T05:28:59.282Z"
+    },
+    "score_batch_BR_part2_2026-06-25": {
+      "market": "Brazil",
+      "total": 72,
+      "ready_ge60": 15,
+      "scored": 70,
+      "finished_at": "2026-06-26T06:29:31.474Z"
+    },
+    "score_batch_BR_part3_2026-06-25": {
+      "market": "Brazil",
+      "total": 72,
+      "ready_ge60": 12,
+      "scored": 72,
+      "finished_at": "2026-06-26T06:49:35.800Z"
+    }
+  },
+  "cumulative": {
+    "total": 379,
+    "ready": 125,
+    "below60": 251
+  },
+  "updated_at": "2026-06-26T06:49:35.800Z"
+}

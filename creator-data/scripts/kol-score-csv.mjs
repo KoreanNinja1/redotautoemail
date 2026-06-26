@@ -6,7 +6,7 @@
 import fs from 'fs';
 import path from 'path';
 import { PATHS } from './paths.mjs';
-import { appendRasBlacklist, esc, isContactable } from './dedupe.mjs';
+import { appendRasBlacklist, esc, isContactable, sortRasResults } from './dedupe.mjs';
 
 const inputCsv = process.argv[2];
 const market = process.argv[3] || 'India';
@@ -69,6 +69,14 @@ async function getSnapshot(channelId) {
   return { status: res.status, json };
 }
 
+async function parseJson(res) {
+  try {
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
 async function refreshReport(channelId) {
   const res = await fetch(`${BASE}/api/jobs/report-refresh`, {
     method: 'POST',
@@ -78,7 +86,8 @@ async function refreshReport(channelId) {
     },
     body: JSON.stringify({ channel_id: channelId, market }),
   });
-  const json = await res.json();
+  const json = await parseJson(res);
+  if (!json) return { ok: false, json: null };
   if (!json.job_id && !json.ok) return { ok: false, json };
   const jobId = json.job_id || json.id;
   if (!jobId) {
@@ -90,7 +99,8 @@ async function refreshReport(channelId) {
     const jr = await fetch(`${BASE}/api/jobs/${jobId}`, {
       headers: { Authorization: `Bearer ${KEY}` },
     });
-    const job = await jr.json();
+    const job = await parseJson(jr);
+    if (!job) continue;
     if (job.status === 'done' || job.status === 'completed') return { ok: true, job };
     if (job.status === 'failed' || job.status === 'error') return { ok: false, job };
   }
@@ -170,14 +180,7 @@ for (const row of rows) {
   await sleep(300);
 }
 
-results.sort(
-  (a, b) =>
-    (Number(b.ras_score) || 0) - (Number(a.ras_score) || 0) ||
-    (Number(b.avg_views) || 0) - (Number(a.avg_views) || 0)
-);
-results.forEach((r, i) => {
-  r.priority_rank = String(i + 1);
-});
+sortRasResults(results);
 
 const outHeader = [...new Set([...header, 'category', 'comment_score'])];
 const scoredPath = inputCsv.replace(/\.csv$/, '_scored.csv');
@@ -197,7 +200,6 @@ const writeCsv = (filePath, data) =>
 
 writeCsv(scoredPath, results);
 writeCsv(readyPath, ready);
-writeCsv(inputCsv, ready);
 
 const addedBlacklist = appendRasBlacklist(blacklisted, { sourceBatch });
 

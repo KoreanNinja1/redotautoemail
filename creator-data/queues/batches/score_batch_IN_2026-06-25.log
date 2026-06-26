@@ -1,0 +1,331 @@
+scored Crypto Wala Dost: 73.2
+scored Shrija Saha: 78.8
+scored Bhavin Tank The Expert's Advice: 46.3
+scored Deepanshu Chandela: 46.4
+scored Vibe With Sahil: 65.3
+scored SANGU IS LIVE: 51
+scored ICT ENIGMA: 60.6
+scored AB krypto: 53.3
+scored Trading Career: 61.3
+scored Money Guru Digital: 67.2
+scored Crypto City Tamil: 59.6
+scored 𝗩𝗔𝗥𝗔𝗡𝗔𝗦𝗜 𝗕𝗜𝗧𝗖𝗢𝗜𝗡 𝗕𝗔𝗔𝗣: 76.8
+scored Crypto Kunda: 72.5
+scored online m business: 59.1
+scored CryptoTrainer /क्रिप्टो की बात: 73.5
+scored Tamil Crypto Tech: 54.8
+scored ComPho Crypto: 59.8
+scored Jazz'd Soul: 31.7
+scored Knowledge box: 67.1
+scored Crypto Shyam: 74.8
+scored Crypto Ashok: 63.6
+scored Online Crypto School: 55.2
+scored The Crypto Byte: 54.6
+scored Technical Pankaj Zone: 56.4
+scored Technical MRD: 71.5
+scored Mirzad Makhdoom: 61.6
+scored Crypto Pugal: 66.6
+scored Rakmo Sharma: 75.7
+scored BEI Money: 74.2
+scored Bong Crypto: 53.5
+scored Mac Tech Tamil: 58.5
+scored Rajesh Pearlvine Help: 69.1
+scored Crypto Money Mantra: 62.4
+scored Digital Dex: 62.3
+scored FinTech Skills: not_in_kol_db
+scored Crypto 007 Aaj kal: 66
+scored Cryptoverse: 50.5
+scored BULL RUN తెలుగు: 64.2
+scored XYZ Crypto: 58.1
+scored Gyan hkd: 40.7
+scored Ek Bihari Trader: 55.1
+scored Trade STPC: 59
+scored Dr Nicolas Kokkalis: 49.3
+scored CRYPTO INCOME: 52.9
+scored Tech Earning Support: 56.5
+scored Faizan Fun Diary: 38.2
+scored Investor Bano: 67
+scored usrd tech champion: 55.2
+scored CRYPTO DAILY: 65.8
+scored CRYPTOGRAM 🇮🇳: 63.9
+scored Smart Trades: 68.2
+scored Index wala Trader: 64.2
+scored Crypto Ab tak: 71.8
+scored Crypto Academy Telugu: 72.2
+scored High Tek Earning: 57.7
+scored Crypto Godara: 45.8
+scored Anuj Crypto Guide: 75.9
+scored Crypto Arun - हिंदी: 52.4
+scored Unique Rahul: 65.7
+scored AKS Tech World: 68.2
+scored The Himalayan Guru Official Channel©: 52.9
+scored Crypto With Faruk: 72.1
+scored Dey's Technical: 60.8
+scored Rajkumar Bairwa: 32.3
+scored Karma Crypto - Tamil: 63.2
+scored Crypto Biplab: 67.2
+scored Vishal Digital Wealth: 57.4
+scored Tradingwith_YashKhajania: 65.2
+scored CryptoNeeti: 72.1
+scored Beginners Solution: 44.5
+scored Man On Crypto: 65.2
+scored Crypto Planet Calls: 55.3
+scored SI Traders: 55
+scored Strike Earnnig: not_in_kol_db
+scored Crypto Wealth point: 55.2
+scored CryptoBhai 💎: 75.5
+scored Realdrophunter: 60.1
+scored Earning Attack: 50.8
+scored Airdrop Insider: 51.8
+scored Crypto World Telugu: 66.5
+scored CRYPTOSMIT: 55.7
+scored Presale Era: 63.2
+{
+  "input": "creator-data/queues/batches/score_batch_IN_2026-06-25.csv",
+  "scored_full": "creator-data/queues/batches/score_batch_IN_2026-06-25_scored.csv",
+  "ready_ge60": "creator-data/queues/batches/score_batch_IN_2026-06-25_ready.csv",
+  "total": 82,
+  "scored": 80,
+  "ready_for_contact": 43,
+  "added_to_ras_blacklist": 37,
+  "already_in_db": 23,
+  "report_refresh_triggered": 57,
+  "failed": 2,
+  "top": [
+    {
+      "name": "Shrija Saha",
+      "ras": "78.8",
+      "verdict": "Strong Fit",
+      "email": "shrijafinance@gmail.com"
+    },
+    {
+      "name": "𝗩𝗔𝗥𝗔𝗡𝗔𝗦𝗜 𝗕𝗜𝗧𝗖𝗢𝗜𝗡 𝗕𝗔𝗔𝗣",
+      "ras": "76.8",
+      "verdict": "Strong Fit",
+      "email": "varanasibitcoinbaap@gmail.com"
+    },
+    {
+      "name": "Anuj Crypto Guide",
+      "ras": "75.9",
+      "verdict": "Strong Fit",
+      "email": "anujg7209@gmail.com"
+    },
+    {
+      "name": "Rakmo Sharma",
+      "ras": "75.7",
+      "verdict": "Strong Fit",
+      "email": "omkar9may@gmail.com"
+    },
+    {
+      "name": "CryptoBhai 💎",
+      "ras": "75.5",
+      "verdict": "Strong Fit",
+      "email": "cryptobhai777@gmail.com"
+    },
+    {
+      "name": "Crypto Shyam",
+      "ras": "74.8",
+      "verdict": "Good Fit",
+      "email": "cryptoshyamcs@gmail.com"
+    },
+    {
+      "name": "BEI Money",
+      "ras": "74.2",
+      "verdict": "Good Fit",
+      "email": "infobeimoney@gmail.com"
+    },
+    {
+      "name": "CryptoTrainer /क्रिप्टो की बात",
+      "ras": "73.5",
+      "verdict": "Good Fit",
+      "email": "cryptotrainerindia@gmail.com"
+    }
+  ],
+  "blacklisted": [
+    {
+      "name": "ComPho Crypto",
+      "ras": "59.8",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Crypto City Tamil",
+      "ras": "59.6",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "online m business",
+      "ras": "59.1",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Trade STPC",
+      "ras": "59",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Mac Tech Tamil",
+      "ras": "58.5",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "XYZ Crypto",
+      "ras": "58.1",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "High Tek Earning",
+      "ras": "57.7",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Vishal Digital Wealth",
+      "ras": "57.4",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Tech Earning Support",
+      "ras": "56.5",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Technical Pankaj Zone",
+      "ras": "56.4",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "CRYPTOSMIT",
+      "ras": "55.7",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Crypto Planet Calls",
+      "ras": "55.3",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Online Crypto School",
+      "ras": "55.2",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "usrd tech champion",
+      "ras": "55.2",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Crypto Wealth point",
+      "ras": "55.2",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Ek Bihari Trader",
+      "ras": "55.1",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "SI Traders",
+      "ras": "55",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Tamil Crypto Tech",
+      "ras": "54.8",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "The Crypto Byte",
+      "ras": "54.6",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Bong Crypto",
+      "ras": "53.5",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "AB krypto",
+      "ras": "53.3",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "CRYPTO INCOME",
+      "ras": "52.9",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "The Himalayan Guru Official Channel©",
+      "ras": "52.9",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Crypto Arun - हिंदी",
+      "ras": "52.4",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Airdrop Insider",
+      "ras": "51.8",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "SANGU IS LIVE",
+      "ras": "51",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Earning Attack",
+      "ras": "50.8",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Cryptoverse",
+      "ras": "50.5",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Dr Nicolas Kokkalis",
+      "ras": "49.3",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Deepanshu Chandela",
+      "ras": "46.4",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Bhavin Tank The Expert's Advice",
+      "ras": "46.3",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Crypto Godara",
+      "ras": "45.8",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Beginners Solution",
+      "ras": "44.5",
+      "verdict": "Exclude"
+    },
+    {
+      "name": "Gyan hkd",
+      "ras": "40.7",
+      "verdict": "Exclude"
+    },
+    {
+      "name": "Faizan Fun Diary",
+      "ras": "38.2",
+      "verdict": "Exclude"
+    },
+    {
+      "name": "Rajkumar Bairwa",
+      "ras": "32.3",
+      "verdict": "Exclude"
+    },
+    {
+      "name": "Jazz'd Soul",
+      "ras": "31.7",
+      "verdict": "Exclude"
+    }
+  ]
+}

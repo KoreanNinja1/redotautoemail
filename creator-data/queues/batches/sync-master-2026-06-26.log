@@ -1,0 +1,478 @@
+
+=== scoring score_batch_remainder_BR_2026-06-26.csv (Brazil) ===
+scored Crypto Investidor: 59.7
+scored João Trein: 68.8
+scored Mundo Crypto: not_in_kol_db
+scored ALTIERE - Study Bitcoin: 54.1
+scored Caio Villa - Cripto Villa: 43.7
+scored Bitcoin Moment: 63.7
+scored Coinext Criptomoedas: 67
+scored A HORA DO TARO: not_in_kol_db
+scored Casta Crypto: 54.6
+scored Jefferson Almeida: 61.2
+scored Café Com Cripto: 61.5
+scored Crypto Agora: 61.6
+scored Mister MR - Bitcoin e Criptomoedas: 68.1
+scored Haomaro Criptomoedas: 52.3
+scored Leo Gravina: 71.5
+scored Jama Internet Business: not_in_kol_db
+scored Inicia Crypto: 66.4
+scored Cripto y Finanzas: 56.7
+scored Diego Spanevello: 44.1
+scored Passa No RH: not_in_kol_db
+scored Como Ganhar Dinheiro Online: 61.3
+scored Daxo Bitcoins e Criptomoedas: 67
+scored Gabriel Bearlz: 49
+scored Dr. Cripto: 66.1
+scored SMART CRYPTO: 55.6
+scored INFINITA RENDA: 62.2
+scored O Guri Digital: 53.1
+scored Crypto Nichols Brasil: 63.8
+scored CripThu: 56.2
+scored Rodrigo Tutoriais de investimentos diversos: 13.4
+scored Liqi: 61.2
+scored Luki Faria NFT: 64.8
+scored AMINZEIRA: 43.4
+scored Emerson Antunes: 54.5
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_BR_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_BR_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_BR_2026-06-26_ready.csv",
+  "total": 34,
+  "scored": 30,
+  "ready_for_contact": 16,
+  "added_to_ras_blacklist": 14,
+  "already_in_db": 6,
+  "report_refresh_triggered": 24,
+  "failed": 4,
+  "top": [
+    {
+      "name": "Leo Gravina",
+      "ras": "71.5",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "João Trein",
+      "ras": "68.8",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Mister MR - Bitcoin e Criptomoedas",
+      "ras": "68.1",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Coinext Criptomoedas",
+      "ras": "67",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Daxo Bitcoins e Criptomoedas",
+      "ras": "67",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Inicia Crypto",
+      "ras": "66.4",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Dr. Cripto",
+      "ras": "66.1",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Luki Faria NFT",
+      "ras": "64.8",
+      "verdict": "Good Fit",
+      "email": ""
+    }
+  ],
+  "blacklisted": [
+    {
+      "name": "Crypto Investidor",
+      "ras": "59.7",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Cripto y Finanzas",
+      "ras": "56.7",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "CripThu",
+      "ras": "56.2",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "SMART CRYPTO",
+      "ras": "55.6",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Casta Crypto",
+      "ras": "54.6",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Emerson Antunes",
+      "ras": "54.5",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "ALTIERE - Study Bitcoin",
+      "ras": "54.1",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "O Guri Digital",
+      "ras": "53.1",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Haomaro Criptomoedas",
+      "ras": "52.3",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Gabriel Bearlz",
+      "ras": "49",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Diego Spanevello",
+      "ras": "44.1",
+      "verdict": "Exclude"
+    },
+    {
+      "name": "Caio Villa - Cripto Villa",
+      "ras": "43.7",
+      "verdict": "Exclude"
+    },
+    {
+      "name": "AMINZEIRA",
+      "ras": "43.4",
+      "verdict": "Exclude"
+    },
+    {
+      "name": "Rodrigo Tutoriais de investimentos diversos",
+      "ras": "13.4",
+      "verdict": "Exclude"
+    }
+  ]
+}
+
+=== scoring score_batch_remainder_IN_2026-06-26.csv (India) ===
+scored FxVisit US: not_in_kol_db
+scored The Scalper King: 67.8
+scored Zero Treasure: 62.9
+scored Technical trader: 63.1
+scored Trade With Prity 2.0: 58.7
+scored The Bedroom Trader: 61.2
+scored Trading with Tamil: 65.2
+scored FinTech Skills: not_in_kol_db
+scored Tradershanayachaudhary: 61.1
+scored Strike Earnnig: not_in_kol_db
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_IN_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_IN_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_IN_2026-06-26_ready.csv",
+  "total": 10,
+  "scored": 7,
+  "ready_for_contact": 6,
+  "added_to_ras_blacklist": 1,
+  "already_in_db": 1,
+  "report_refresh_triggered": 6,
+  "failed": 3,
+  "top": [
+    {
+      "name": "The Scalper King",
+      "ras": "67.8",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Trading with Tamil",
+      "ras": "65.2",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Technical trader",
+      "ras": "63.1",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Zero Treasure",
+      "ras": "62.9",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "The Bedroom Trader",
+      "ras": "61.2",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Tradershanayachaudhary",
+      "ras": "61.1",
+      "verdict": "Good Fit",
+      "email": ""
+    }
+  ],
+  "blacklisted": [
+    {
+      "name": "Trade With Prity 2.0",
+      "ras": "58.7",
+      "verdict": "Watchlist"
+    }
+  ]
+}
+
+=== scoring score_batch_remainder_AR_2026-06-26.csv (Argentina) ===
+scored EL MÍTICO: 71.2
+scored TEV: Trading En Vivo: 56.7
+scored Trading Institucional: 58.2
+scored RHCapital: 51.6
+scored Cardano Castellano: 40.5
+scored WolfX: 54.2
+scored FINANFLIX: 63.5
+scored Altcoin Daily en Español: 65.3
+scored Enzo Fernandux: 56.2
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_AR_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_AR_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_AR_2026-06-26_ready.csv",
+  "total": 9,
+  "scored": 9,
+  "ready_for_contact": 3,
+  "added_to_ras_blacklist": 6,
+  "already_in_db": 1,
+  "report_refresh_triggered": 8,
+  "failed": 0,
+  "top": [
+    {
+      "name": "EL MÍTICO",
+      "ras": "71.2",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "Altcoin Daily en Español",
+      "ras": "65.3",
+      "verdict": "Good Fit",
+      "email": ""
+    },
+    {
+      "name": "FINANFLIX",
+      "ras": "63.5",
+      "verdict": "Good Fit",
+      "email": ""
+    }
+  ],
+  "blacklisted": [
+    {
+      "name": "Trading Institucional",
+      "ras": "58.2",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "TEV: Trading En Vivo",
+      "ras": "56.7",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Enzo Fernandux",
+      "ras": "56.2",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "WolfX",
+      "ras": "54.2",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "RHCapital",
+      "ras": "51.6",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Cardano Castellano",
+      "ras": "40.5",
+      "verdict": "Exclude"
+    }
+  ]
+}
+
+=== scoring score_batch_remainder_CO_2026-06-26.csv (Colombia) ===
+scored Leak Crypto: 55.8
+scored Cryptonomy: 62.7
+scored John Leudo Profe Strong Signals: 56.5
+scored Fred Vélez: 43.1
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_CO_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_CO_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_CO_2026-06-26_ready.csv",
+  "total": 4,
+  "scored": 4,
+  "ready_for_contact": 1,
+  "added_to_ras_blacklist": 3,
+  "already_in_db": 1,
+  "report_refresh_triggered": 3,
+  "failed": 0,
+  "top": [
+    {
+      "name": "Cryptonomy",
+      "ras": "62.7",
+      "verdict": "Good Fit",
+      "email": ""
+    }
+  ],
+  "blacklisted": [
+    {
+      "name": "John Leudo Profe Strong Signals",
+      "ras": "56.5",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Leak Crypto",
+      "ras": "55.8",
+      "verdict": "Watchlist"
+    },
+    {
+      "name": "Fred Vélez",
+      "ras": "43.1",
+      "verdict": "Exclude"
+    }
+  ]
+}
+
+=== scoring score_batch_remainder_OTHERS_2026-06-26.csv (India) ===
+scored Traders Paradise Global: 14.9
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_OTHERS_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_OTHERS_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_OTHERS_2026-06-26_ready.csv",
+  "total": 1,
+  "scored": 1,
+  "ready_for_contact": 0,
+  "added_to_ras_blacklist": 1,
+  "already_in_db": 0,
+  "report_refresh_triggered": 1,
+  "failed": 0,
+  "top": [],
+  "blacklisted": [
+    {
+      "name": "Traders Paradise Global",
+      "ras": "14.9",
+      "verdict": "Exclude"
+    }
+  ]
+}
+
+=== scoring score_batch_remainder_CL_2026-06-26.csv (Chile) ===
+scored Crypto Emprende: 60.1
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_CL_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_CL_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_CL_2026-06-26_ready.csv",
+  "total": 1,
+  "scored": 1,
+  "ready_for_contact": 1,
+  "added_to_ras_blacklist": 0,
+  "already_in_db": 0,
+  "report_refresh_triggered": 1,
+  "failed": 0,
+  "top": [
+    {
+      "name": "Crypto Emprende",
+      "ras": "60.1",
+      "verdict": "Good Fit",
+      "email": ""
+    }
+  ],
+  "blacklisted": []
+}
+
+=== scoring score_batch_remainder_VE_2026-06-26.csv (Venezuela) ===
+scored Investing Money | Bitcoin and Cryptocurrencies: 11
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_VE_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_VE_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_VE_2026-06-26_ready.csv",
+  "total": 1,
+  "scored": 1,
+  "ready_for_contact": 0,
+  "added_to_ras_blacklist": 1,
+  "already_in_db": 0,
+  "report_refresh_triggered": 1,
+  "failed": 0,
+  "top": [],
+  "blacklisted": [
+    {
+      "name": "Investing Money | Bitcoin and Cryptocurrencies",
+      "ras": "11",
+      "verdict": "Exclude"
+    }
+  ]
+}
+
+=== scoring score_batch_remainder_PE_2026-06-26.csv (Peru) ===
+scored Piero - Minar y Ganar: 54.9
+{
+  "input": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_PE_2026-06-26.csv",
+  "scored_full": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_PE_2026-06-26_scored.csv",
+  "ready_ge60": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/score_batch_remainder_PE_2026-06-26_ready.csv",
+  "total": 1,
+  "scored": 1,
+  "ready_for_contact": 0,
+  "added_to_ras_blacklist": 1,
+  "already_in_db": 0,
+  "report_refresh_triggered": 1,
+  "failed": 0,
+  "top": [],
+  "blacklisted": [
+    {
+      "name": "Piero - Minar y Ganar",
+      "ras": "54.9",
+      "verdict": "Watchlist"
+    }
+  ]
+}
+{
+  "dry_run": false,
+  "master_file": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/kol_uncontacted_master.csv",
+  "all_ready": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/results/all_ready.csv",
+  "all_scored": "/Users/kennyyifeichen/Downloads/RedotPay-KOL-BD/creator-data/queues/batches/results/all_scored.csv",
+  "audit": {
+    "master_rows": 186,
+    "master_with_ras_before": 0,
+    "merged_from_existing_scores": 125,
+    "pending_before_score": 61,
+    "outreach_hits_in_master": 0,
+    "ras_blacklist_hits_in_master": 0,
+    "scored_new": 54,
+    "ready_ge60": 152,
+    "below60_new": 27,
+    "still_unscored": 0,
+    "failed_score": 7
+  },
+  "master_rebuilt_count": 152,
+  "by_country_ready": {
+    "BR": 80,
+    "IN": 49,
+    "AR": 16,
+    "CO": 5,
+    "OTHERS": 1,
+    "CL": 1
+  }
+}

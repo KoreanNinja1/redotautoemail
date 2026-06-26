@@ -4,7 +4,7 @@
 
 | 文件 | 用途 |
 |------|------|
-| `queues/kol_uncontacted_master.csv` | **唯一待发名单**（437 人，381 有邮箱） |
+| `queues/kol_uncontacted_master.csv` | **唯一待发名单**（见文件内实际人数） |
 | `blacklists/outreach_do_not_contact.csv` | 已联系 / 合作中 — 搜人时排除 |
 | `blacklists/ras_below_60.csv` | RAS&lt;60 — 搜人时排除 |
 

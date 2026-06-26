@@ -90,6 +90,35 @@ export function isContactable(ras, verdict) {
   return Number.isFinite(n) && n >= 60;
 }
 
+/** Country code for sorting (IN, BR, …). */
+export function rowCountry(r) {
+  return (r.country || r.market || 'UNKNOWN').trim().toUpperCase();
+}
+
+/** Primary sort: country A→Z, then RAS desc, then subscribers desc. */
+export function compareByCountryThenScore(a, b) {
+  const countryCmp = rowCountry(a).localeCompare(rowCountry(b));
+  if (countryCmp) return countryCmp;
+  const scoreDiff = (Number(b.ras_score) || 0) - (Number(a.ras_score) || 0);
+  if (scoreDiff) return scoreDiff;
+  return (Number(b.subscribers) || 0) - (Number(a.subscribers) || 0);
+}
+
+export function compareByScoreDesc(a, b) {
+  const scoreDiff = (Number(b.ras_score) || 0) - (Number(a.ras_score) || 0);
+  if (scoreDiff) return scoreDiff;
+  return (Number(b.subscribers) || 0) - (Number(a.subscribers) || 0);
+}
+
+/** Sort in place; reassign priority_rank 1..n. */
+export function sortRasResults(rows) {
+  rows.sort(compareByCountryThenScore);
+  rows.forEach((r, i) => {
+    r.priority_rank = String(i + 1);
+  });
+  return rows;
+}
+
 export function appendRasBlacklist(rows, { sourceBatch, date = new Date().toISOString().slice(0, 10) }) {
   const blHdr = 'channel_name,channel_id,profile_url,email,ras_score,bd_verdict,reason,source_batch,added_date';
   const blPath = PATHS.rasBelow60;

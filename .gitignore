@@ -15,3 +15,7 @@ videos/Redotpay.mp4
 
 # Local-only VS Code overrides (optional)
 .vscode/*.local.json
+
+# Temp xlsx unpack dirs (sync-outreach-from-xlsx)
+creator-data/.tmp_626/
+creator-data/.tmp_outreach_sync/

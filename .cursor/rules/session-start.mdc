@@ -1,0 +1,19 @@
+---
+description: RedotPay BD 新对话提醒 — 每日/每周计划与斜杠命令
+alwaysApply: true
+---
+
+# 会话启动
+
+在本仓库（RedotPay KOL BD）工作时：
+
+1. **优先提醒用户**打开并查看：
+   - `plans/本周每日计划.md`（每日任务）
+   - `plans/本周工作计划与资源清单.md`（每周任务）
+   - `plans/SKILLS速查手册.md`（`/noxinme` `/rasme` `/grilling`）
+
+2. 完整 Agent 说明见根目录 **`AGENTS.md`**。
+
+3. 用户说搜博主 / 跑分 / 排 todo / 改流程时，分别走 `/noxinme`、`/rasme`、`/grilling`，不要重复发明流程。
+
+4. 项目启动期用「本周每日计划」；`未来-跑通后Checklist.md` 仅在用户说流程已跑通后再推荐。
