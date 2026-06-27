@@ -35,3 +35,5 @@ cd RedotPay-KOL-BD
 `/noxinme` · `/rasme` · `/grilling` — 见 `plans/SKILLS速查手册.md`
 
 Pipeline 定稿：`plans/onboard-运营同步.md`
+
+**数据：** 领导 csv → `creator-data/exports/` 仅补强；文档中不出现第三方合作系统名称。

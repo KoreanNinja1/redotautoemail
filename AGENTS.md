@@ -37,6 +37,12 @@
 
 ---
 
+## 数据来源（不要写错）
+
+- **RedotPay 自有流程**：Nox 搜人、`/rasme`、KOL Intelligence、`outreach_do_not_contact.csv`、Notion Pipeline、Lark 626 公司总表
+- **领导/外部 csv**：仅作**候选补强**，导入 `creator-data/exports/` 后去重合并；**与任何第三方平台无合作/从属关系**
+- **禁止**在计划、SOP、Agent 回复里把外部 list 写成「合作系统」或绑定特定品牌名
+
 ## 业务硬规则（不要改）
 
 - RAS **≥ 60** 才联系；< 60 → `creator-data/blacklists/ras_below_60.csv`
