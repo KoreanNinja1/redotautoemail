@@ -35,14 +35,14 @@
 | KOL 候选 / RAS / blacklist | `creator-data/`（`/noxinme` `/rasme` 产出） |
 | ready 待发池 | `creator-data/queues/batches/results/all_ready.csv` |
 | 外联历史（脚本去重用） | `creator-data/blacklists/outreach_do_not_contact.csv` |
-| **领导提供的 KOL csv** | `creator-data/exports/`（仅补强候选；**非合作系统**） |
+| **领导 KOL list（公司内部）** | `creator-data/exports/internal/` |
+| **外部补强 list** | `creator-data/exports/external/`（去重后并入候选池；非合作系统） |
 | 活动 guidelines | `plans/activities/` · `redotpay-guides/` |
 
 **数据来源原则：**
 
-- RedotPay 主流程 = Nox + RAS + Notion + Lark 626 + 公司 outreach 记录
-- 外部/领导 list = **只当额外候选来源**，合并前必须对 `outreach_do_not_contact.csv` 去重
-- 文档和 Agent **不得**声称与第三方 list 提供方有任何业务关系
+- **公司内部**：领导 list、626 表、Nox + RAS + Notion + `outreach_do_not_contact.csv`
+- **公司外部 list**：只加强候选池，合并前必须对 blacklist 去重；文档不写合作/绑定第三方名
 
 **分工：**
 

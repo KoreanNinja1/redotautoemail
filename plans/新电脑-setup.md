@@ -36,4 +36,7 @@ cd RedotPay-KOL-BD
 
 Pipeline 定稿：`plans/onboard-运营同步.md`
 
-**数据：** 领导 csv → `creator-data/exports/` 仅补强；文档中不出现第三方合作系统名称。
+**数据：**
+
+- 领导 list（公司内部）→ `creator-data/exports/internal/`
+- 外部补强 list → `creator-data/exports/external/`（去重合并，不写合作系统名）
